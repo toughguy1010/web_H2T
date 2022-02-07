@@ -1,0 +1,194 @@
+/* css for all */
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+}
+
+
+/* 
+.wrapper {
+    overflow: hidden;
+} */
+
+nav {
+    position: fixed;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 100%;
+}
+
+.content {
+    width: calc(100% - 250px);
+    position: absolute;
+    left: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 30px;
+    color: rgb(80, 111, 196);
+    font-weight: bold;
+}
+
+nav ul li a i {
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+nav ul li :hover {
+    background: white;
+}
+
+.logo-img {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.btn-nav {
+    color: white;
+    background-color: rgb(80, 111, 196);
+}
+
+.heading {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 35px;
+}
+
+.search-input {
+    width: 35%;
+    /* /* background-color: dodgerblue; */
+}
+
+.profile {
+    display: flex;
+    /* justify-content: flex-end; */
+    /* width: 50%; */
+    /* background-color: fuchsia; */
+}
+
+.set {
+    width: 2px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(173, 161, 161);
+    text-align: center;
+    margin: 0 10px;
+}
+
+.profile .email a {
+    font-size: 1.5rem;
+    color: rgb(109, 103, 103);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.profile .noitce a {
+    font-size: 1.5rem;
+    color: rgb(109, 103, 103);
+    text-decoration: none;
+}
+
+
+/* css for all */
+
+
+/* css for product */
+
+.product-line {
+    width: 98%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(155, 134, 134);
+    text-align: center;
+    margin: 0 10px;
+}
+
+.img-product {
+    width: 100px;
+}
+
+.icon-product {
+    font-size: 30px;
+}
+
+.mana-product {
+    margin-top: 50px;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.fas {
+    margin-left: 20px;
+}
+
+
+/* css for product */
+
+
+/* css for edit-product */
+
+.edit-warapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-user {
+    /* border: 2px solid black; */
+    box-shadow: 6px 6px 6px rgb(148, 41, 41);
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-radio {
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-gr {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.img-upload {
+    display: flex;
+}
+
+
+/*  css for edit-product  */
+
+
+/* css for add-product */
+
+
+/*  css for add-product  */

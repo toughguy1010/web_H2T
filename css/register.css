@@ -1,0 +1,72 @@
+
+.register-form{
+    justify-content: center;
+    width: 100%;
+    width: 320px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 6rem;
+    display: inline;
+   
+}
+.register-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px auto;
+    padding: 20px;
+}
+.register-form h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+
+}
+.register-form button{
+        background-color: orange;
+        font-size: 25px;
+        color: white;
+}
+.register-form button:hover{
+    background-color: white;
+    
+}
+.register-form input{
+    
+    background-color: #dfe6e9;
+    font-family:  sans-serif;
+    width: 20%;
+    border-radius: 2px;
+    
+}
+.register-form input:hover{
+    color: black;
+}
+.register-form input[type="text"]{
+    display: inline;
+    height: 35px;
+    
+   
+}
+.register-form input[type="dob"]{
+    
+    display: inline;
+    height: 35px;
+    
+}
+.register-form input[type="email"]{
+   
+    display: inline;
+    height: 35px;
+   
+}
+.register-form input[type="pass"]{
+    
+    display: inline;
+    height: 35px;
+}
+.register-form input[type="re-pass"]{
+    
+    display: inline;
+    height: 35px;
+}

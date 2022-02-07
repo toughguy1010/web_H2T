@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/saleup.css">
+    <title> Chương trình khuyến mãi</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Sidebar-->
+        <nav class="sidebar">
+            <ul>
+                <div>
+                    <img src="https://file.hstatic.net/200000201725/file/logo300x70_edf9c9c72acb48f791fe052257311c5c.png" alt="" class="logo-img">
+                </div>
+                <li class="nav-item active">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i> Trang Chủ
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="user.html">
+                        <i class="fas fa-users-cog"></i> Người dùng
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="product.html">
+                        <i class="fas fa-barcode"></i> Hàng Hóa
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#">
+                        <i class="fas fa-coins"></i> Doanh thu
+                    </a>
+                </li>
+                <li class="nav-item active" style="background-color: white;">
+                    <a href="saleup.html">
+                        <i class="fas fa-percent"></i> Chương trình khuyến mãi
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#">
+                        <i class="fas fa-cog"></i> Cài đặt
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!--Sidebar-->
+
+
+
+        <!--Content-->
+        <section class=" content">
+            <!-- Heading content -->
+            <div class=" nav heading">
+                <div class="search-input">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm" aria-label="searching">
+                        <button class="btn btn-secondary btn-nav" type="button"><i class="fas fa-search"></i></button>
+                    </div>
+
+                </div>
+                <div class="profile">
+
+                    <div class="email">
+                        <a href="">
+                            <i class="fas fa-envelope mail"></i>
+                        </a>
+
+                    </div>
+                    <div class="noitce">
+                        <a href="">
+                            <i class="fas fa-bell bell"></i>
+                        </a>
+                    </div>
+
+                    <div class="set"></div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-nav" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                                Admin profile
+                            </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Tài khoản</a></li>
+                            <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                            <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Heading content -->
+            <!--Body content-->
+            <section class="container">
+                <div class="heading-content">
+                    <h2 style="color: rgb(83, 62, 62); font-weight: bold;">Chương trình khuyến mại</h2>
+                </div>
+                <div class="product-line mt-3"></div>
+
+                <div class="mana-product container">
+                    <h3 class="text-center mt-3 fw-bold">Danh sách chương trình</h3>
+                    <table class="table table-hover ">
+                        <thead class=" table-light">
+                            <tr>
+                                <th scope="col">STT</th>
+                                <th scope="col">Tên chương trình</th>
+                                <th scope="col">Thời gian bắt đầu</th>
+                                <th scope="col">Thời gian kết thúc</th>
+                                <th scope="col">Ảnh</th>
+                                <th scope="col">Thêm</th>
+                                <th scope="col">Cập nhật</th>
+                                <th scope="col">Xóa </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Slae up to 75%</td>
+                                <td>2021-25-12</td>
+                                <td>2021-31-12</td>
+                                <td>
+                                    <img src="https://file.hstatic.net/200000201725/collection/sale_75__web_673ae689bab64144b1d0ab06c91b1eda.jpg" alt="" class="img-saleup">
+                                </td>
+                                <td>
+                                    <a href="add-saleup.html" class="icon-product">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="edit-saleup.html" class="icon-product">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="" class="icon-product">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Slae up to 75%</td>
+                                <td>2021-25-12</td>
+                                <td>2021-31-12</td>
+                                <td>
+                                    <img src="https://file.hstatic.net/200000201725/collection/sale_75__web_673ae689bab64144b1d0ab06c91b1eda.jpg" alt="" class="img-saleup">
+                                </td>
+                                <td>
+                                    <a href="add-saleup.html" class="icon-product">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="edit-saleup.html" class="icon-product">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="" class="icon-product">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Slae up to 75%</td>
+                                <td>2021-25-12</td>
+                                <td>2021-31-12</td>
+                                <td>
+                                    <img src="https://file.hstatic.net/200000201725/collection/sale_75__web_673ae689bab64144b1d0ab06c91b1eda.jpg" alt="" class="img-saleup">
+                                </td>
+                                <td>
+                                    <a href="add-saleup.html" class="icon-product">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="edit-saleup.html" class="icon-product">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="" class="icon-product">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Slae up to 75%</td>
+                                <td>2021-25-12</td>
+                                <td>2021-31-12</td>
+                                <td>
+                                    <img src="https://file.hstatic.net/200000201725/collection/sale_75__web_673ae689bab64144b1d0ab06c91b1eda.jpg" alt="" class="img-saleup">
+                                </td>
+                                <td>
+                                    <a href="add-saleup.html" class="icon-product">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="edit-saleup.html" class="icon-product">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="" class="icon-product">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div aria-label="Page navigation example" class="text-center">
+                        <ul class="pag">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Body content-->
+
+
+            <!-- Footer content -->
+
+            <!-- Footer content -->
+
+        </section>
+    </div>
+    <!--Content-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
